@@ -1,3 +1,38 @@
-h1{
-    color: brown;
+* {
+    margin: 0;
+}
+
+.header {
+    background-image: url(images/banner/banner1.png);
+    width: auto;
+    height: 808px;
+    left: 1600px;
+    top: 808px;
+
+}
+
+.banner-title {
+    color: #151414;
+    font-size: 45px;
+}
+
+.banner-description {
+    color: #444343;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.banner-btn {
+    background: #F15B22;
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: none;
+    color: white;
+}
+
+.banner-text-area {
+    text-align: right;
+    padding-top: 215px;
+    padding-right: 115px;
 }
