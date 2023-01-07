@@ -1,4 +1,5 @@
 * {
+    font-family: 'Work Sans', sans-serif;
     margin: 0;
 }
 
@@ -26,7 +27,7 @@
 .banner-btn {
     background: #F15B22;
     border-radius: 5px;
-    padding: 10px 10px;
+    padding: 10px 15px;
     border: none;
     color: white;
 }
@@ -38,42 +39,132 @@
 }
 
 /* second section css */
-.person-section{
+.person-section {
     display: flex;
     gap: 50px;
     align-items: center;
     margin-left: 200px;
     margin-top: 130px;
 }
-.person-title{
+
+.person-title {
     color: #151414;
     font-size: 40px;
 }
-.person-description{
+
+.person-description {
     color: #444343;
 }
 
 /* My plan css */
-.my-plan-heading{
+.my-plan-heading {
     color: #151414;
     font-size: 40px;
     text-align: center;
     margin-top: 120px;
 }
-.plans{
+
+.plans {
     display: flex;
     justify-content: space-evenly;
 }
-.plan{
+
+.plan {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.plan img{
+
+.plan img {
     margin-top: 50px;
     margin-bottom: 15px;
 }
-.plan h2{
+
+.plan h2 {
     color: #151414;
     font-size: 30px;
+}
+
+.plan p {
+    color: #737272;
+}
+
+/* watch section css */
+.watch-section {
+    margin-top: 125px;
+    width: 1540px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 8px;
+    background-image:
+        linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),
+        url('images/watch.png');
+}
+
+.watch-title {
+    color: #FFFFFF;
+    font-size: 40px;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+.primary-btn {
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+}
+
+.watch-button {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+/* future section css */
+.future-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+    background: #151414;
+    padding: 50px 0px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+
+}
+
+.footer-description {
+    color: #F8F8F8;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.footer-contact {
+    color: #F8F8F8;
+}
+.social-icon img{
+    width: 30px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.footer-sub-title{
+    color: #FFFFFF;
+    font-size: 25px;
+
+}
+.search-bar{
+    color: #F3F3F3;
+    background-color: #151414;
+    padding: 5px;
+    border: #F3F3F3;
+}
+.search{
+    padding: 10px 0px;
+    border: #F3F3F3;
 }
