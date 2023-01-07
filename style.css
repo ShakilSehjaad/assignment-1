@@ -148,23 +148,27 @@
 .footer-contact {
     color: #F8F8F8;
 }
-.social-icon img{
+
+.social-icon img {
     width: 30px;
     padding-right: 5px;
     padding-top: 5px;
 }
-.footer-sub-title{
+
+.footer-sub-title {
     color: #FFFFFF;
     font-size: 25px;
 
 }
-.search-bar{
+
+.search-bar {
     color: #F3F3F3;
     background-color: #151414;
     padding: 5px;
-    border: #F3F3F3;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
 }
-.search{
+
+.search {
     padding: 10px 0px;
-    border: #F3F3F3;
 }
