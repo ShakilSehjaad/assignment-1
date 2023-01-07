@@ -172,3 +172,17 @@
 .search {
     padding: 10px 0px;
 }
+/* skill section css */
+.skill-section{
+    display: flex;
+    justify-content: space-around;
+}
+.skill-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.skill-name{
+    text-align: center;
+}
