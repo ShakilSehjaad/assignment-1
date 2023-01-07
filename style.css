@@ -19,7 +19,7 @@
 
 .banner-description {
     color: #444343;
-    font-size: 16px;
+    font-size: 14px;
     padding-top: 15px;
     padding-bottom: 25px;
 }
@@ -53,7 +53,15 @@
 }
 
 .person-description {
+    margin-top: 20px;
     color: #444343;
+    font-size: 14px;
+}
+.person-description-two{
+    color: #444343;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 14px;
 }
 
 /* My plan css */
@@ -124,7 +132,7 @@
     padding-left: 40px;
 }
 
-/* future section css */
+/* footer section css */
 .future-section {
     display: flex;
     justify-content: space-around;
@@ -135,7 +143,7 @@
 
 .footer-title {
     color: #F8F8F8;
-    font-size: 45px;
+    font-size: 40px;
 
 }
 
@@ -143,10 +151,12 @@
     color: #F8F8F8;
     padding-top: 15px;
     padding-bottom: 20px;
+    font-size: 14px;
 }
 
 .footer-contact {
     color: #F8F8F8;
+    font-size: 14px;
 }
 
 .social-icon img {
@@ -158,6 +168,7 @@
 .footer-sub-title {
     color: #FFFFFF;
     font-size: 25px;
+
 
 }
 
