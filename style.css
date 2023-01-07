@@ -36,3 +36,19 @@
     padding-top: 215px;
     padding-right: 115px;
 }
+
+/* second section css */
+.person-section{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 130px;
+}
+.person-title{
+    color: #151414;
+    font-size: 40px;
+}
+.person-description{
+    color: #444343;
+}
